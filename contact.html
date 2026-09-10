@@ -1,97 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BiteBox-contact</title>
-</head>
-<body>
-    <img src="assets/images/BiteBox Logo1.png" alt="BiteBox Logo" width="150">
+  </head>
+  <body>
+    <img src="assets/images/BiteBox Logo1.png" alt="BiteBox Logo" width="150" />
     <h1>Contact Us</h1>
     <p>
-         <a href="index.html">Home</a> |
-         <a href="menu.html">Menu</a> |
-         <a href="about.html">About</a> |
-         <a href="contact.html">Contact</a> 
+      <a href="index.html">Home</a> | <a href="menu.html">Menu</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
     </p>
-    
-     <hr>
+
+    <hr />
     <h2>Customer Registration & Order Form</h2>
 
     <form>
-       <h3>Customer Information</h3>
-       <label for="fullname">Full Name</label>
-       <br>
-       <input type="text" id="fullname" name="fullname">
-       <br><br>
+      <h3>Customer Information</h3>
+      <label for="fullname">Full Name</label>
+      <br />
+      <input type="text" id="fullname" name="fullname" />
+      <br /><br />
 
-       <label for="email">Email Address</label>
-       <br>
-       <input type="email" id="email" name="email">
-       <br><br>
+      <label for="email">Email Address</label>
+      <br />
+      <input type="email" id="email" name="email" />
+      <br /><br />
 
-       <label for="password">Password</label>
-       <br>
-       <input type="password" id="password" name="password">
-       <br><br>
+      <label for="password">Password</label>
+      <br />
+      <input type="password" id="password" name="password" />
+      <br /><br />
 
-       <label for="phone">Phone Number</label>
-       <br>
-       <input type="tel" id="phone" name="phone">
-       <br><br>
+      <label for="phone">Phone Number</label>
+      <br />
+      <input type="tel" id="phone" name="phone" />
+      <br /><br />
 
-       <h3>Order Information</h3>
-       <label for="quantity">Quantity</label>
-       <br>
-       <input type="number" id="quality" name="quantity">
-       <br><br>
+      <h3>Order Information</h3>
+      <label for="quantity">Quantity</label>
+      <br />
+      <input type="number" id="quality" name="quantity" min="1" required />
+      <br /><br />
 
-       <label for="deliveryDate">Prefferred Delivery Date</label>
-       <br>
-       <input type="date" id="deliveryDate" name="deliveryDate">
-       <br><br>
+      <label for="deliveryDate">Prefferred Delivery Date</label>
+      <br />
+      <input type="date" id="deliveryDate" name="deliveryDate" />
+      <br /><br />
 
-       <label for="food">Select Food Item</label>
-       <br>
-       <select name="food" id="food">
+      <label for="food">Select Food Item</label>
+      <br />
+      <select name="food" id="food">
         <option>Veg Pizza</option>
         <option>Cheese Burger</option>
         <option>White Sauce Pasta</option>
         <option>Veg Grilled Sandwich</option>
         <option>Chocolate Brownie</option>
-       </select>
-       <br><br>
+      </select>
+      <br /><br />
 
-       <h3>Payment Method</h3>
-       <input type="radio" id="Cash" name="Payment">
-       <label for="Cash">Cash</label>
-       <br>
-       <input type="radio" id="Card" name="Payment">
-       <label for="Card">Card</label>
-       <br>
-       <input type="radio" id="upi" name="Payment">
-       <label for="upi">UPI</label>
-       <br><br>
+      <h3>Payment Method</h3>
+      <input type="radio" id="Cash" name="Payment" />
+      <label for="Cash">Cash</label>
+      <br />
+      <input type="radio" id="Card" name="Payment" />
+      <label for="Card">Card</label>
+      <br />
+      <input type="radio" id="upi" name="Payment" />
+      <label for="upi">UPI</label>
+      <br /><br />
 
-       <h3>Extras</h3>
-       <input type="checkbox" id="Cheese" name="Extras">
-       <label for="Cheese">Extra Cheese</label>
-       <br>
-       <input type="checkbox" id="Drinks" name="Extras">
-       <label for="Drinks">Cold Drinks</label>
-       <br>
-       <input type="checkbox" id="Dessert" name="Extras">
-       <label for="Dessert">Dessert</label>
-       <br><br>
+      <h3>Extras</h3>
+      <input type="checkbox" id="Cheese" name="Extras" />
+      <label for="Cheese">Extra Cheese</label>
+      <br />
+      <input type="checkbox" id="Drinks" name="Extras" />
+      <label for="Drinks">Cold Drinks</label>
+      <br />
+      <input type="checkbox" id="Dessert" name="Extras" />
+      <label for="Dessert">Dessert</label>
+      <br /><br />
 
-       <h3>Delivery Instructions</h3>
-       <label for="Address">Delivery Address</label>
-       <br>
-       <textarea name="Address" id="Address" rows="5" cols="40"></textarea>
-       <br><br>
+      <h3>Delivery Instructions</h3>
+      <label for="Address">Delivery Address</label>
+      <br />
+      <textarea name="Address" id="Address" rows="5" cols="40"></textarea>
+      <br /><br />
 
-       <input type="submit" value="Place Order">
-       <input type="reset" value="Clear Form">
+      <input type="submit" value="Place Order" />
+      <input type="reset" value="Clear Form" />
     </form>
-</body>
+  </body>
 </html>
