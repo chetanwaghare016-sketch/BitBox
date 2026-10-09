@@ -4,35 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family
+    =Montserrat:wght@400;600;700;800&family=Pacifico&family=Poppins:wght@300;
+    400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <!-- Restaurant Logo -->
+      <!-------------- Resturant Name -------------->
       <img
+        class="logo"
         src="assets/images/BiteBox Logo1.png"
-        height="100"
-        width="100"
         alt="BiteBox Logo"
       />
 
-      <!--Navigation Menu -->
+      <!-------------- navigation Menu -------------->
       <nav>
-        <a href="index.html">Home</a> | <a href="about.html">About</a> |
-        <a href="menu.html">Menu</a> |
+        <a href="index.html">Home</a> | <a href="menu.html">Menu</a> |
+        <a href="about.html">About</a> |
         <a href="contact.html">Contact</a>
+        <a href="cart.html"><img src="assets/images/cart.png" alt="cart" width="25px" /></a>
       </nav>
     </header>
 
     <!-- Cart Hero Section -->
     <section id="cart-hero">
-      <div class="hero-content">
-        <h2>Your Shopping Cart</h2>
-        <p>Review your selected food items before proceeding to checkout.</p>
+      <h1>Your Shopping Cart</h1>
+      <div class="divider">
         <hr />
-        <p>
-          Update quantities, remove items, and confirm your order with ease.
-        </p>
+        <img src="assets/images/fork-spoon.png" alt="fork-spoon img" />
+        <hr />
       </div>
+      <p>
+        Review your selected food items before proceeding to checkout.
+        <br />
+        Update quantities, remove items, and confirm your order with ease.
+      </p>
     </section>
 
     <section id="shopping-cart">
@@ -69,7 +78,9 @@
             </td>
             <td>₹249</td>
             <td>
-              <a href="#"> <img src="assets/images/delete.png" width="25" /> </a>
+              <a href="#">
+                <img src="assets/images/delete.png" width="25" />
+              </a>
             </td>
           </tr>
 
@@ -113,7 +124,9 @@
             </td>
             <td>₹199</td>
             <td>
-              <a href="#"> <img src="assets/images/delete.png" width="25" /> </a>
+              <a href="#">
+                <img src="assets/images/delete.png" width="25" />
+              </a>
             </td>
           </tr>
         </tbody>

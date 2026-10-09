@@ -4,141 +4,132 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BiteBox</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family
+    =Montserrat:wght@400;600;700;800&family=Pacifico&family=Poppins:wght@300;
+    400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <link rel="stylesheet" href="css/style.css">
 
   <body>
     <header>
       <!-------------- Resturant Name -------------->
-      <img class="logo"
+      <img
+        class="logo"
         src="assets/images/BiteBox Logo1.png"
         alt="BiteBox Logo"
       />
 
       <!-------------- navigation Menu -------------->
       <nav>
-        <a href="index.html">Home</a> | 
-        <a href="menu.html">Menu</a> |
+        <a href="index.html">Home</a> | <a href="menu.html">Menu</a> |
         <a href="about.html">About</a> |
         <a href="contact.html">Contact</a>
-        <img src="assets/images/cart.png" alt="cart" width="25px"> 
+        <a href="cart.html"
+          ><img src="assets/images/cart.png" alt="cart" width="25px"
+        /></a>
       </nav>
     </header>
-
     <!--------------- Main Section -------------->
     <main>
-      <section>
+      <section id="home-hero">
         <!-------------- Hero Section -------------->
-        <h1>Delicious Food Delivered To Your Doorstep</h1>
+        <h1>Delicious Food Delivered To Your <span>Doorstep</span></h1>
         <p>
           Fresh ingredients, delicious recipes, and fast delivery — all in one
           place.
         </p>
 
-        <a href="menu.html">Order Now</a>
-        |
-        <a href="menu.html">Explore Menu</a>
+        <div class="hero-buttons">
+          <a href="menu.html" class="order-button">Order Now</a>
+
+          <a href="menu.html" class="menu-button">Explore Menu</a>
+        </div>
       </section>
 
       <hr />
 
       <!-------------- Why Choose BiteBox -------------->
-      <section>
+      <section id="features">
         <h2>Why Choose BiteBox</h2>
+        <div>
+          <article>
+            <img
+              src="assets/images/Fresh ingredients.png"
+              alt="Fresh Ingredients"
+              width="100px"
+            />
+            <div>
+              <h3>Fresh Ingredients</h3>
+              <p>
+                Every meal is prepared using fresh vegetables and premium
+                quality ingredients.
+              </p>
+            </div>
+          </article>
 
-        <article>
-          <img
-            src="assets/images/Fresh ingredients.png"
-            alt="Fresh Ingredients"
-            width="100px"
-          />
-          <h3>Fresh Ingredients</h3>
-          <p>
-            Every meal is prepared using fresh vegetables and premium quality
-            ingredients.
-          </p>
-        </article>
+          <article>
+            <img
+              src="assets/images/Fast Delivery.png"
+              alt="Fast Delivery"
+              width="100px"
+            />
+            <div>
+              <h3>Fast Delivery</h3>
+              <p>Get your favorite meals delivered quickly to your doorstep.</p>
+            </div>
+          </article>
 
-        <article>
-          <img
-            src="assets/images/Fast Delivery.png"
-            alt="Fast Delivery"
-            width="100px"
-          />
-          <h3>Fast Delivery</h3>
-          <p>Get your favorite meals delivered quickly to your doorstep.</p>
-        </article>
+          <article>
+            <img
+              src="assets/images/Hygienic Kitchen.png"
+              alt="Hygienic Kitchen"
+              width="100px"
+            />
+            <div>
+              <h3>Hygienic Kitchen</h3>
+              <p>
+                Our meals are prepared under strict hygiene standards by
+                experienced chefs.
+              </p>
+            </div>
+          </article>
 
-        <article>
-          <img
-            src="assets/images/Hygienic Kitchen.png"
-            alt="Hygienic Kitchen"
-            width="100px"
-          />
-          <h3>Hygienic Kitchen</h3>
-          <p>
-            Our meals are prepared under strict hygiene standards by experienced
-            chefs.
-          </p>
-        </article>
-
-        <article>
-          <img
-            src="assets/images/Easy Online Ordering.png"
-            alt="Easy Online Ordering"
-            width="100px"
-          />
-          <h3>Easy Online Ordering</h3>
-          <p>
-            Browse the menu, place your order, and enjoy your meal with just a
-            few clicks.
-          </p>
-        </article>
-      </section>
-
-      <!-------------- About Section -------------->
-      <section>
-        <h2>About BiteBox</h2>
-        <p>
-          BiteBox is your one-stop destination for delicious meals prepared
-          using fresh ingredients and delivered quickly to your doorstep.
-        </p>
-      </section>
-
-      <!-------------- Restaurant Story -------------->
-      <section>
-        <hr />
-        <h2>Our Story</h2>
-
-        <p>
-          BiteBox started with a simple mission—to serve fresh, delicious meals
-          prepared with quality ingredients and delivered with exceptional
-          service. Every meal is crafted with care to bring happiness to our
-          customers.
-        </p>
-      </section>
-
-      <!--------------Chef's Message -------------->
-      <section>
-        <hr />
-        <h2>Chef's Message</h2>
-        <p>
-          <em>
-            Every dish at BiteBox is prepared with fresh ingredients, authentic
-            reccipes and a passion for delivering memorable dining experience.
-          </em>
-        </p>
+          <article>
+            <img
+              src="assets/images/Easy Online Ordering.png"
+              alt="Easy Online Ordering"
+              width="100px"
+            />
+            <div>
+              <h3>Easy Online Ordering</h3>
+              <p>
+                Browse the menu, place your order, and enjoy your meal with just
+                a few clicks.
+              </p>
+            </div>
+          </article>
+        </div>
       </section>
 
       <!-------------- Feature Section -------------->
-      <section id="popular dishes">
+      <section id="popular-dishes">
         <h2>Populaer Dishes</h2>
         <article>
           <img src="assets/images/Pizza.png" alt="Cheese Pizza" width="220px" />
           <h3>Cheese Pizza</h3>
-          <p>Loaded with fresh vegetables and mozzorarella</p>
-          <p><span>⭐⭐⭐⭐⭐</span> <small>(126)</small></p>
-          <p><strong>₹249</strong></p>
+          <p>
+            Loaded with fresh vegetables and mozzorarella cheese and crispy
+            crust.
+          </p>
+          <div class="details">
+            <p class="rating"><span>⭐⭐⭐⭐⭐</span> <small>(126)</small></p>
+            <p class="price"><strong>₹249</strong></p>
+          </div>
         </article>
 
         <article>
@@ -148,9 +139,13 @@
             width="220px"
           />
           <h3>Chicken Burger</h3>
-          <p>Crispy chicken patty served with fresh lettuce and cheese.</p>
-          <p><span>⭐⭐⭐⭐⭐</span> <small>(99)</small></p>
-          <p><strong>₹199</strong></p>
+          <p>
+            Crispy chicken patty served with fresh lettuce,toamto and cheese.
+          </p>
+          <div class="details">
+            <p class="rating"><span>⭐⭐⭐⭐⭐</span> <small>(99)</small></p>
+            <p class="price"><strong>₹199</strong></p>
+          </div>
         </article>
 
         <article>
@@ -163,8 +158,10 @@
           <p>
             Creamy white sauce pasta tossed with herbs and fresh vegetables.
           </p>
-          <p><span>⭐⭐⭐⭐⭐</span> <small>(76)</small></p>
-          <p><strong>₹229</strong></p>
+          <div class="details">
+            <p class="rating"><span>⭐⭐⭐⭐⭐</span> <small>(76)</small></p>
+            <p class="price"><strong>₹229</strong></p>
+          </div>
         </article>
 
         <article>
@@ -178,8 +175,10 @@
             Aromatic basmati rice layered with tender Chicken and authentic
             spices.
           </p>
-          <p><span>⭐⭐⭐⭐⭐</span> <small>(112)</small></p>
-          <p><strong>₹249</strong></p>
+          <div class="details">
+            <p class="rating"><span>⭐⭐⭐⭐⭐</span> <small>(112)</small></p>
+            <p class="price"><strong>₹249</strong></p>
+          </div>
         </article>
 
         <article>
@@ -190,91 +189,74 @@
           />
           <h3>Chocolate Cake</h3>
           <p>Rich chocolate sponge layered with creamy chocolate frosting</p>
-          <p><span>⭐⭐⭐⭐⭐</span> <small>(58)</small></p>
-          <p><strong>₹149</strong></p>
+          <div class="details">
+            <p class="rating"><span>⭐⭐⭐⭐⭐</span> <small>(58)</small></p>
+            <p class="price"><strong>₹149</strong></p>
+          </div>
         </article>
       </section>
 
       <hr />
 
       <!-------------- Today's Special Offers -------------->
-      <section id="Offer">
+      <section id="offer">
         <div class="offer-content">
-          <h2>Today's Special Offer!</h2>
+          <h2><span>Today's</span> Special Offer!</h2>
           <p>
             Get <strong>20%OFF</strong>on all orders above <strong>₹499</strong>
           </p>
           <p>use code: <strong>BITE20</strong></p>
           <a href="menu.html">Order Now</a>
         </div>
-
-        <div class="Offer image">
-          <img
-            src="assets/images/pizza offer.png"
-            alt="Special Offer Pizza"
-            width="320px"
-            height="320px"
-          />
-
-          <img
-            src="assets/images/offer badge.png"
-            alt="20%OFF"
-            width="180px"
-            height="180px"
-          />
-        </div>
       </section>
 
       <!-------------- Customers Review -------------->
-      <section id="Reviews">
+      <section id="reviews">
         <h2>What Our Customers Say</h2>
 
         <article>
-          <img
-            src="assets/images/Customer 1.png"
-            alt="Priya Sharma"
-            width="80px"
-            height="80px"
-          />
-          <h3>Priya Sharma</h3>
           <p>
             Amazing food and super fast delivery. BiteBox is my go-to place
             every time!
           </p>
-          <p><span>⭐⭐⭐⭐⭐</span></p>
+          <div class="customer">
+            <img src="assets/images/Customer 1.png" alt="Priya Sharma" />
+            <div>
+              <h3>Priya Sharma</h3>
+              <p><span>⭐⭐⭐⭐⭐</span></p>
+            </div>
+          </div>
         </article>
 
         <article>
-          <img
-            src="assets/images/Customer 2.png"
-            alt="Rahul Verma"
-            width="80px"
-            height="80px"
-          />
-          <h3>Rahul Verma</h3>
           <p>
             The food quality is excellent and alway fresh. Highly recommended!
           </p>
-          <p><span>⭐⭐⭐⭐⭐</span></p>
+          <div class="customer">
+            <img src="assets/images/Customer 2.png" alt="Rahul Verma" />
+            <div>
+              <h3>Rahul Verma</h3>
+              <p><span>⭐⭐⭐⭐⭐</span></p>
+            </div>
+          </div>
         </article>
 
         <article>
-          <img
-            src="assets/images/Customer 3.png"
-            alt="Anjali Mehta"
-            width="80px"
-            height="80px"
-          />
-          <h3>Anjali Mehta</h3>
-          <p>Great taste, great service and very easy to order. Love it!</p>
-          <p><span>⭐⭐⭐⭐⭐</span></p>
+          <p>Great taste, great service and very easy to or der. Really love it!</p>
+          <div class="customer">
+            <img src="assets/images/Customer 3.png" alt="Rakesh Mehta" />
+            <div>
+              <h3>Rakesh Mehta</h3>
+              <p><span>⭐⭐⭐⭐⭐</span></p>
+            </div>
+          </div>
         </article>
       </section>
       <hr />
 
       <!-------------- Newsletter -------------->
-      <section id="Newsletter">
-        <div class="Newsletter-content">
+      <section id="newsletter">
+        <div class="newsletter-content">
           <img
             src="assets/images/Emaill icon.png"
             alt="Newsletter icon"
